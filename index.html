@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>fall21-mvc-miner</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand bg-dark text-light">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" width="45" height="45" alt="" loading="lazy">
+                <span class="ml-2">fall21-mvc-miner</span>
+            </a>
+        </nav>
+    </header>
+    <main class="container-fluid background">
+        <div class="row justify-content-center mt-3">
+            <img src="https://i.imgur.com/3G28QiZ.png" alt="" onclick="app.rupeeController.cutGrass()">
+        </div>
+        <div class="row justify-content-center">
+            <span>Total Rupees:<h4 class="text-center text-bold" id="Rupees">--</h4> </span>
+        </div>
+        <div class="row p-2 mt-2 justify-content-around">
+            <div id="Shop"></div>
+        </div>
+        <div id="app"></div>
+    </main>
+    <footer class="bg-dark text-light">
+        <div class="text-center">
+            <p><small>Made with love by Codeworks</small></p>
+        </div>
+    </footer>
+
+    <script src="app/main.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
